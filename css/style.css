@@ -1,0 +1,293 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.wrapper {
+	min-height:100%;
+	overflow:hidden;
+	display:flex;
+	flex-direction: column;
+}
+
+.container {
+	width:1165px;
+	margin: 0 auto;
+}
+
+.content {
+	flex:1 1 auto;
+	}
+.hi {
+	/*height:323px;*/
+	background-color: #445162;
+	padding:50px 0;
+}
+
+.hi__row {
+	display:flex;
+	justify-content: space-between;
+}
+.hi__body {
+font-family: ArialMT;
+color: #ffffff;
+padding:0 30px 0 0;
+}
+
+.hi__title {
+text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+font-size: 60px;
+line-height: 1.2;
+margin: 0 0 32px 0;
+}
+
+
+.hi__list li{
+background:url('../img/icons/check icon@1X.png') 0 11px no-repeat;
+text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+font-size: 20px;
+line-height: 36px;
+padding:0 0 0 36px;
+margin:0 0 7px 0;
+}
+
+.hi__list li:last-child{
+	margin:0;
+}
+
+.hi__image-flexbox {
+ width: 500px;
+ height: 300px;
+}
+.footer {
+	background-color: #F5F5F5;
+}
+.footer__row {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:65px;
+
+}
+.footer__text {
+font-family: ArialMT;
+font-size: 12px;
+line-height: 24px;
+letter-spacing: 0.025em;
+color: #445162;
+/*margin: 25px 0;*/
+}
+
+.title {
+font-family: ArialMT;
+font-size: 30px;
+line-height: 36px;
+color: #445161;
+}
+
+.what {
+	padding:50px 0;
+	}
+
+.what__row {
+	display: flex;
+}
+
+.what__image {
+ flex:0 0 430px;
+}
+
+.what__image img {
+	max-width: 100%;
+}
+
+.what__body {
+	flex: 1 1 auto;
+	padding: 0 0 0 38px;
+}
+
+.what__title {
+	margin:0 0 30px 0;
+}
+
+.what__text p{
+font-family: ArialMT;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+margin:0 0 30px 0;
+}
+
+.what__text p:last-child {
+	margin:0;
+}
+
+
+.columns {
+	background-color: #f5f5f5;
+	padding:50px 0 20px 0;
+
+}
+
+.columns__row {
+	display:flex;
+	flex-wrap:wrap;
+	margin:0 -8px;
+	
+	
+}
+.columns__column {
+	flex: 0 1 50%;
+	margin: 0 0 30px 0;
+	padding:0 8px;
+}
+
+
+
+
+.columns__title {
+text-align: center;
+margin: 0 0 25px 0;
+}
+
+.items__row {
+display:flex;
+}
+
+.items__image {
+	flex: 0 0 200px;
+}
+
+.items__text {
+	padding: 0 0 0 13px;
+}
+
+.items__text p:last-child {
+font-family: ArialMT;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+}
+
+.items__text p:first-child {
+font-family: ArialMT;
+font-size: 24px;
+line-height: 30px;
+color: #445161;
+margin: 0 0 20px 0;
+}
+
+
+.blocks {
+padding: 50px 0;
+}
+
+.blocks__title {
+	text-align: center;
+	font-family: ArialMT;
+font-size: 30px;
+line-height: 36px;
+color: #445161;
+margin: 0 0 33px 0;
+}
+
+.blocks__row {
+	display:flex;
+	flex-direction: columns;
+	justify-content: space-around;
+}
+
+.blocks__square {
+	width:300px;
+	height:499px;
+	border-radius: 5px;
+	padding:0 0 15px 0;
+
+}
+.square {
+	background-color: #445162;
+display:flex;
+}
+.square__row {
+	display:flex;
+	flex-direction: column;
+
+
+}
+.square__title {
+	text-align: center;
+	font-family: ArialMT;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+color: #ffffff;
+margin:17px 0;
+
+}
+.square__subtitle {
+	text-align: center;
+	font-family: ArialMT;
+font-size: 40px;
+line-height: 30px;
+border: 2px solid #445162;
+background-color: #ffffff;
+color: #445162;
+width: 300px;
+height: 71px;
+padding: 15px 0;
+}
+.square__text {
+	font-family: ArialMT;
+font-size: 14px;
+line-height: 24px;
+color: #ffffff;
+padding:15px;
+flex: 1 1 auto;
+
+}
+.square__button {
+	text-align: center;
+	width: 260px;
+height: 40px;
+background-color: #ffffff;
+font-family: ArialMT;
+font-size: 18px;
+line-height: 18px;
+font-weight: 700;
+color: #445161;
+margin:0 auto;
+padding:9px 0;
+border-radius:5px;
+}
